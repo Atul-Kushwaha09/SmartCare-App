@@ -1,0 +1,10 @@
+workload_name,architecture_mode,request_count,concurrency,successful_requests,failed_requests,error_rate,min_ms,max_ms,mean_ms,median_ms,p95_ms,p99_ms,throughput_rps,cpu_avg,cpu_peak,memory_avg,memory_peak
+Patient Login,B1,50,5,50,0,0.00,81.02,478.11,373.39,408.72,476.72,478.04,11.44,0.00,0.00,0,0
+Doctor Login,B1,50,5,50,0,0.00,97.68,503.84,338.81,401.85,467.36,502.84,11.80,0.00,0.00,0,0
+Retrieve Patient Appointments,B1,50,5,0,50,100.00,1.47,12.47,4.04,3.03,12.10,12.44,836.69,0.00,0.00,0,0
+Create Appointment,B1,50,5,0,50,100.00,5.00,14.60,8.64,8.17,13.02,13.98,511.74,0.00,0.00,0,0
+Retrieve Doctor Queue,B1,50,5,0,50,100.00,1.11,9.17,3.83,3.21,7.78,8.99,840.56,0.00,0.00,0,0
+Retrieve Consultation Information,B1,50,5,50,0,0.00,4.05,16.05,7.17,6.62,12.83,15.64,564.64,0.00,0.00,0,0
+Retrieve Patient Medical Records,B1,50,5,50,0,0.00,5.31,16.49,9.09,8.39,14.65,15.95,423.73,0.00,0.00,0,0
+Retrieve Patient Lab Bookings,B1,50,5,0,50,100.00,1.25,7.56,2.80,2.26,6.98,7.46,1092.42,0.00,0.00,0,0
+Search Medicine Availability,B1,50,5,0,50,100.00,2.08,12.86,4.88,3.74,11.70,12.70,606.52,0.00,0.00,0,0

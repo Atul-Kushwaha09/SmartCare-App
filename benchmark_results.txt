@@ -1,0 +1,8 @@
+Starting Performance Evaluation...
+
+--- Telemedicine Prototype Performance Metrics ---
+API Health Check Avg Response: 3.22 ms
+Auth Login Check Avg Response: 2.56 ms
+--------------------------------------------------
+
+Note: DPDP-oriented privacy considerations mandate that patient data is not processed during these public endpoint benchmarks, ensuring a privacy-preserving architecture.

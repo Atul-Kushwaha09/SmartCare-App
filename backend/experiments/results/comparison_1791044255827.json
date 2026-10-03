@@ -1,0 +1,83 @@
+[
+  {
+    "workload": "Patient Login",
+    "B1_mean_ms": "366.45",
+    "B2_mean_ms": "336.10",
+    "overhead_pct": "-8.28",
+    "B1_throughput": "11.53",
+    "B2_throughput": "12.25",
+    "throughput_diff_pct": "6.24"
+  },
+  {
+    "workload": "Doctor Login",
+    "B1_mean_ms": "350.52",
+    "B2_mean_ms": "360.73",
+    "overhead_pct": "2.91",
+    "B1_throughput": "11.70",
+    "B2_throughput": "12.10",
+    "throughput_diff_pct": "3.42"
+  },
+  {
+    "workload": "Retrieve Patient Appointments",
+    "B1_mean_ms": "4.06",
+    "B2_mean_ms": "4.54",
+    "overhead_pct": "11.82",
+    "B1_throughput": "791.95",
+    "B2_throughput": "669.92",
+    "throughput_diff_pct": "-15.41"
+  },
+  {
+    "workload": "Create Appointment",
+    "B1_mean_ms": "9.52",
+    "B2_mean_ms": "9.49",
+    "overhead_pct": "-0.32",
+    "B1_throughput": "458.02",
+    "B2_throughput": "442.38",
+    "throughput_diff_pct": "-3.41"
+  },
+  {
+    "workload": "Retrieve Doctor Queue",
+    "B1_mean_ms": "3.81",
+    "B2_mean_ms": "4.26",
+    "overhead_pct": "11.81",
+    "B1_throughput": "748.78",
+    "B2_throughput": "716.59",
+    "throughput_diff_pct": "-4.30"
+  },
+  {
+    "workload": "Retrieve Consultation Information",
+    "B1_mean_ms": "8.13",
+    "B2_mean_ms": "7.96",
+    "overhead_pct": "-2.09",
+    "B1_throughput": "484.96",
+    "B2_throughput": "498.66",
+    "throughput_diff_pct": "2.82"
+  },
+  {
+    "workload": "Retrieve Patient Medical Records",
+    "B1_mean_ms": "7.05",
+    "B2_mean_ms": "29.10",
+    "overhead_pct": "312.77",
+    "B1_throughput": "501.48",
+    "B2_throughput": "151.84",
+    "throughput_diff_pct": "-69.72"
+  },
+  {
+    "workload": "Retrieve Patient Lab Bookings",
+    "B1_mean_ms": "4.08",
+    "B2_mean_ms": "3.45",
+    "overhead_pct": "-15.44",
+    "B1_throughput": "789.05",
+    "B2_throughput": "780.73",
+    "throughput_diff_pct": "-1.05"
+  },
+  {
+    "workload": "Search Medicine Availability",
+    "B1_mean_ms": "6.66",
+    "B2_mean_ms": "5.56",
+    "overhead_pct": "-16.52",
+    "B1_throughput": "486.82",
+    "B2_throughput": "510.16",
+    "throughput_diff_pct": "4.79"
+  }
+]

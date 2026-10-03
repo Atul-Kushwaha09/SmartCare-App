@@ -1,0 +1,10 @@
+workload,runs_count,B1_mean_ms,B1_std_dev_ms,B1_cv_pct,B2_mean_ms,B2_std_dev_ms,B2_cv_pct,latency_overhead_pct,B1_throughput_rps,B2_throughput_rps,throughput_diff,throughput_diff_pct
+Patient Login,3,581.34,7.21,1.24,665.27,41.53,6.24,14.44,14.45,13.25,-1.20,-8.30
+Doctor Login,3,606.65,25.17,4.15,640.00,24.66,3.85,5.50,14.13,13.66,-0.47,-3.33
+Retrieve Patient Appointments,3,6.73,2.25,33.42,4.18,0.68,16.31,-37.89,1005.84,1354.01,348.17,34.61
+Create Appointment,3,16.11,4.88,30.33,13.84,3.40,24.56,-14.09,581.27,648.59,67.32,11.58
+Retrieve Doctor Queue,3,4.34,0.59,13.68,6.96,3.27,47.02,60.37,1311.67,966.26,-345.41,-26.33
+Retrieve Consultation Information,3,11.16,2.89,25.94,10.48,0.07,0.65,-6.09,751.68,747.14,-4.54,-0.60
+Retrieve Patient Medical Records,3,9.82,2.39,24.32,29.92,2.56,8.55,204.68,835.52,296.66,-538.86,-64.49
+Retrieve Patient Lab Bookings,3,4.25,1.03,24.18,3.50,0.80,22.76,-17.65,1401.14,1676.29,275.15,19.64
+Search Medicine Availability,3,3.24,0.96,29.77,2.73,0.40,14.52,-15.74,1830.27,2103.41,273.14,14.92

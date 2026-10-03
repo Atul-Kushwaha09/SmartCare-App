@@ -1,0 +1,263 @@
+[
+  {
+    "workload": "Patient Login",
+    "B1": {
+      "mean": "581.34",
+      "median": "680.98",
+      "min": "71.72",
+      "max": "730.71",
+      "p95": "713.07",
+      "p99": "720.62",
+      "stdDev": "7.21",
+      "cv": "1.24",
+      "throughput": "14.45"
+    },
+    "B2": {
+      "mean": "665.27",
+      "median": "717.01",
+      "min": "77.74",
+      "max": "887.81",
+      "p95": "822.97",
+      "p99": "847.65",
+      "stdDev": "41.53",
+      "cv": "6.24",
+      "throughput": "13.25"
+    },
+    "latency_difference": "83.93",
+    "latency_overhead_pct": "14.44",
+    "throughput_difference": "-1.20",
+    "throughput_change_pct": "-8.30"
+  },
+  {
+    "workload": "Doctor Login",
+    "B1": {
+      "mean": "606.65",
+      "median": "681.84",
+      "min": "71.87",
+      "max": "1063.49",
+      "p95": "817.50",
+      "p99": "846.06",
+      "stdDev": "25.17",
+      "cv": "4.15",
+      "throughput": "14.13"
+    },
+    "B2": {
+      "mean": "640.00",
+      "median": "710.18",
+      "min": "78.89",
+      "max": "816.23",
+      "p95": "780.34",
+      "p99": "798.80",
+      "stdDev": "24.66",
+      "cv": "3.85",
+      "throughput": "13.66"
+    },
+    "latency_difference": "33.35",
+    "latency_overhead_pct": "5.50",
+    "throughput_difference": "-0.47",
+    "throughput_change_pct": "-3.33"
+  },
+  {
+    "workload": "Retrieve Patient Appointments",
+    "B1": {
+      "mean": "6.73",
+      "median": "6.14",
+      "min": "1.48",
+      "max": "20.93",
+      "p95": "13.72",
+      "p99": "16.09",
+      "stdDev": "2.25",
+      "cv": "33.42",
+      "throughput": "1005.84"
+    },
+    "B2": {
+      "mean": "4.18",
+      "median": "3.90",
+      "min": "1.47",
+      "max": "10.94",
+      "p95": "7.27",
+      "p99": "8.81",
+      "stdDev": "0.68",
+      "cv": "16.31",
+      "throughput": "1354.01"
+    },
+    "latency_difference": "-2.55",
+    "latency_overhead_pct": "-37.89",
+    "throughput_difference": "348.17",
+    "throughput_change_pct": "34.61"
+  },
+  {
+    "workload": "Create Appointment",
+    "B1": {
+      "mean": "16.11",
+      "median": "14.84",
+      "min": "6.87",
+      "max": "51.06",
+      "p95": "29.03",
+      "p99": "30.27",
+      "stdDev": "4.88",
+      "cv": "30.33",
+      "throughput": "581.27"
+    },
+    "B2": {
+      "mean": "13.84",
+      "median": "13.63",
+      "min": "7.50",
+      "max": "31.32",
+      "p95": "19.43",
+      "p99": "22.41",
+      "stdDev": "3.40",
+      "cv": "24.56",
+      "throughput": "648.59"
+    },
+    "latency_difference": "-2.27",
+    "latency_overhead_pct": "-14.09",
+    "throughput_difference": "67.32",
+    "throughput_change_pct": "11.58"
+  },
+  {
+    "workload": "Retrieve Doctor Queue",
+    "B1": {
+      "mean": "4.34",
+      "median": "3.71",
+      "min": "1.22",
+      "max": "11.43",
+      "p95": "8.81",
+      "p99": "10.29",
+      "stdDev": "0.59",
+      "cv": "13.68",
+      "throughput": "1311.67"
+    },
+    "B2": {
+      "mean": "6.96",
+      "median": "6.00",
+      "min": "1.19",
+      "max": "47.83",
+      "p95": "14.75",
+      "p99": "20.73",
+      "stdDev": "3.27",
+      "cv": "47.02",
+      "throughput": "966.26"
+    },
+    "latency_difference": "2.62",
+    "latency_overhead_pct": "60.37",
+    "throughput_difference": "-345.41",
+    "throughput_change_pct": "-26.33"
+  },
+  {
+    "workload": "Retrieve Consultation Information",
+    "B1": {
+      "mean": "11.16",
+      "median": "10.80",
+      "min": "5.27",
+      "max": "21.86",
+      "p95": "15.22",
+      "p99": "16.93",
+      "stdDev": "2.89",
+      "cv": "25.94",
+      "throughput": "751.68"
+    },
+    "B2": {
+      "mean": "10.48",
+      "median": "10.27",
+      "min": "5.77",
+      "max": "20.73",
+      "p95": "16.20",
+      "p99": "18.55",
+      "stdDev": "0.07",
+      "cv": "0.65",
+      "throughput": "747.14"
+    },
+    "latency_difference": "-0.68",
+    "latency_overhead_pct": "-6.09",
+    "throughput_difference": "-4.54",
+    "throughput_change_pct": "-0.60"
+  },
+  {
+    "workload": "Retrieve Patient Medical Records",
+    "B1": {
+      "mean": "9.82",
+      "median": "9.50",
+      "min": "5.05",
+      "max": "20.60",
+      "p95": "13.62",
+      "p99": "15.05",
+      "stdDev": "2.39",
+      "cv": "24.32",
+      "throughput": "835.52"
+    },
+    "B2": {
+      "mean": "29.92",
+      "median": "31.36",
+      "min": "7.97",
+      "max": "44.34",
+      "p95": "36.19",
+      "p99": "38.42",
+      "stdDev": "2.56",
+      "cv": "8.55",
+      "throughput": "296.66"
+    },
+    "latency_difference": "20.10",
+    "latency_overhead_pct": "204.68",
+    "throughput_difference": "-538.86",
+    "throughput_change_pct": "-64.49"
+  },
+  {
+    "workload": "Retrieve Patient Lab Bookings",
+    "B1": {
+      "mean": "4.25",
+      "median": "3.35",
+      "min": "1.14",
+      "max": "13.45",
+      "p95": "9.05",
+      "p99": "10.17",
+      "stdDev": "1.03",
+      "cv": "24.18",
+      "throughput": "1401.14"
+    },
+    "B2": {
+      "mean": "3.50",
+      "median": "3.20",
+      "min": "1.15",
+      "max": "8.59",
+      "p95": "6.15",
+      "p99": "6.69",
+      "stdDev": "0.80",
+      "cv": "22.76",
+      "throughput": "1676.29"
+    },
+    "latency_difference": "-0.75",
+    "latency_overhead_pct": "-17.65",
+    "throughput_difference": "275.15",
+    "throughput_change_pct": "19.64"
+  },
+  {
+    "workload": "Search Medicine Availability",
+    "B1": {
+      "mean": "3.24",
+      "median": "3.08",
+      "min": "1.15",
+      "max": "8.03",
+      "p95": "5.40",
+      "p99": "5.88",
+      "stdDev": "0.96",
+      "cv": "29.77",
+      "throughput": "1830.27"
+    },
+    "B2": {
+      "mean": "2.73",
+      "median": "2.36",
+      "min": "1.03",
+      "max": "6.73",
+      "p95": "5.46",
+      "p99": "5.78",
+      "stdDev": "0.40",
+      "cv": "14.52",
+      "throughput": "2103.41"
+    },
+    "latency_difference": "-0.51",
+    "latency_overhead_pct": "-15.74",
+    "throughput_difference": "273.14",
+    "throughput_change_pct": "14.92"
+  }
+]

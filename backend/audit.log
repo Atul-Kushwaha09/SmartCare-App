@@ -1,0 +1,5 @@
+{"timestamp":"2026-10-03T13:20:19.743Z","userId":47,"action":"CONSULTATION_RESUME","resourceId":7,"details":{"patient_id":45,"role":"doctor"}}
+{"timestamp":"2026-10-03T13:21:25.052Z","userId":51,"action":"CONSULTATION_RESUME","resourceId":8,"details":{"patient_id":49,"role":"doctor"}}
+{"timestamp":"2026-10-03T13:24:22.519Z","userId":55,"action":"CONSULTATION_RESUME","resourceId":9,"details":{"patient_id":53,"role":"doctor"}}
+{"timestamp":"2026-10-03T13:25:09.631Z","userId":59,"action":"CONSULTATION_RESUME","resourceId":10,"details":{"patient_id":57,"role":"doctor"}}
+{"timestamp":"2026-10-03T13:25:09.649Z","userId":59,"action":"RECORD_CREATE","resourceId":1,"details":{"patient_id":57,"record_type":"General","role":"doctor"}}

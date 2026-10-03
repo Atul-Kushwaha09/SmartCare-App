@@ -1,0 +1,10 @@
+workload_name,architecture_mode,request_count,concurrency,successful_requests,failed_requests,error_rate,min_ms,max_ms,mean_ms,median_ms,p95_ms,p99_ms,throughput_rps,cpu_avg,cpu_peak,memory_avg,memory_peak
+Patient Login,B2,50,5,8,42,84.00,2.43,386.50,43.51,5.42,316.76,385.81,72.64,94.38,94.38,76161024,80736256
+Doctor Login,B2,50,5,0,50,100.00,2.13,10.29,4.20,3.86,7.39,9.34,769.49,94.38,94.38,76161024,80736256
+Retrieve Patient Appointments,B2,50,5,0,50,100.00,1.20,11.39,3.60,3.36,6.94,11.14,781.83,94.38,94.38,76161024,80736256
+Create Appointment,B2,50,5,0,50,100.00,5.04,12.08,7.26,6.73,11.34,11.95,590.80,94.38,94.38,76161024,80736256
+Retrieve Doctor Queue,B2,50,5,0,50,100.00,1.24,11.95,3.53,2.99,6.89,9.63,740.25,94.38,94.38,76161024,80736256
+Retrieve Consultation Information,B2,50,5,50,0,0.00,3.39,11.99,6.09,5.57,11.41,11.93,679.99,94.38,94.38,76161024,80736256
+Retrieve Patient Medical Records,B2,50,5,50,0,0.00,7.40,31.70,20.78,20.99,27.95,30.43,215.67,94.38,94.38,76161024,80736256
+Retrieve Patient Lab Bookings,B2,50,5,0,50,100.00,0.94,6.82,2.33,2.07,4.30,6.56,1284.05,94.38,94.38,76161024,80736256
+Search Medicine Availability,B2,50,5,0,50,100.00,1.22,18.04,4.95,3.27,15.92,17.54,561.46,94.38,94.38,76161024,80736256
